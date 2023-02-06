@@ -2,8 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page</title>
   <link rel="stylesheet" href="stylesheets/stylesheet.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js">
+    $(function (){
+      $(".btn").click(function (){
+        $(".submenu").slideToggle(500);
+      });
+    });
+  </script>
+
+
 </head>
 
 
@@ -52,6 +62,12 @@
     </ul>
     <p> All rights reserved.</p>
 </div>
+  
+  <div class="submenu">
+    <a href="#">Link1</a>
+    <a href="#">Link2</a>
+  </div>
+  
 </footer>  
 </body>
 </html>
